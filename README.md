@@ -1,2 +1,2 @@
 # shell_profiles
-Shell profiles I like to use
+Shell profile(s) I like to use. 
