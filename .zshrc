@@ -171,6 +171,8 @@ if [ -x /usr/bin/dircolors ]; then
     alias egrep='egrep --color=auto'
     alias diff='diff --color=auto'
     alias ip='ip --color=auto'
+    alias gr="grep -r -i -n --color=always"
+    alias sss="ss -l -4"
 
     export LESS_TERMCAP_mb=$'\E[1;31m'     # begin blink
     export LESS_TERMCAP_md=$'\E[1;36m'     # begin bold
@@ -188,6 +190,9 @@ fi
 alias ll='ls -l'
 alias la='ls -A'
 alias l='ls -CF'
+
+# alias for nvim
+alias nv="nvim"
 
 # enable auto-suggestions based on the history
 if [ -f /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh ]; then
