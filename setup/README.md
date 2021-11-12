@@ -1,4 +1,5 @@
-Automates my prefered shell setup.
+Automates my prefered vim and shell profile setup. Also installs bug hunting tools.
+
 Make sure to run as root.
 
 ```console
